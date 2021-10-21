@@ -1,0 +1,36 @@
+@media(max-width:1599px){
+   
+}
+@media(max-width:1399px){
+    .projects h3 {
+        min-height: 111vh;
+    }
+}
+@media(max-width:1199px){
+    .projects h3 {
+        min-height: 92vh;
+    }
+}
+@media(max-width:991px){
+    .projects h3 {
+        min-height: 67vh;
+    }
+}
+@media(max-width:767px){
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+    }
+    form input{
+        margin-bottom: 10px;
+    }
+    .plan .plan1 {
+        margin-bottom: 10px;
+    }
+    .post .post_content {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:575px){
+    
+    
+}

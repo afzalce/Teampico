@@ -1,0 +1,85 @@
+* { margin: 0px; padding: 0px; }
+body { font-family: "Bebas Neue", cursive; }
+header { background-image: url("../images/header_bg.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.navbar-light .navbar-nav .nav-link { color: rgb(47, 47, 47); font-size: 18px; padding: 0px; margin-left: 20px; position: relative; }
+.navbar-light .navbar-nav .nav-link::before { content: ""; position: absolute; left: 0px; bottom: -5px; height: 2px; width: 0%; background: rgb(235, 58, 76); transition: all 0.4s ease-in-out 0s; }
+.navbar-light .navbar-nav .nav-link:hover { font-weight: 700; }
+.navbar-light .navbar-nav .nav-link:hover::before { width: 50%; }
+.navbar > .container-fluid { padding: 0px; }
+.hg { min-height: 83vh; }
+.hg .top { color: rgb(47, 47, 47); font-size: 35px; text-transform: uppercase; font-weight: 700; margin: 0px 0px 25px; }
+.hg .bottom { color: rgb(235, 58, 76); font-size: 35px; text-transform: uppercase; font-weight: 700; margin: 0px 0px 25px; }
+.hg p { color: rgb(47, 47, 47); font-size: 16px; margin: 0px 0px 30px; }
+.btn_appointment { color: rgb(235, 58, 76); font-size: 15px; border: 1px solid rgb(235, 58, 76); padding: 10px 25px; border-radius: 30px; }
+.btn_appointment:hover { color: rgb(255, 255, 255); background: rgb(235, 58, 76); }
+.btn_projects { color: rgb(255, 255, 255); font-size: 15px; border: 1px solid rgb(235, 58, 76); padding: 10px 25px; border-radius: 30px; background: rgb(235, 58, 76); margin-left: 30px; }
+.btn_projects:hover { color: rgb(235, 58, 76); background: transparent; }
+.featured_section { background: rgb(250, 250, 250); }
+.featured_section span, .projects span, .aboutus span, .testimonial span, .plan span, .post span, .contact span { display: block; height: 40px; width: 2px; background: rgb(235, 58, 76); margin: auto; }
+.featured_section h1, .projects h1, .aboutus h1, .testimonial h1, .plan h1, .post h1, .contact h1 { font-size: 30px; font-weight: 700; margin: 25px; color: rgb(47, 47, 47); }
+.featured_section p, .aboutus p, .testimonial p, .plan p, .post p, .contact p { color: rgb(47, 47, 47); font-size: 16px; margin-bottom: 50px; }
+.featured_section .featured_content { background: rgb(255, 255, 255); padding: 0px 15px 15px; border-radius: 30px; }
+.featured_section .featured_content span { display: block; height: 3px; width: 40px; background: rgb(235, 58, 76); margin: auto; }
+.featured_section .featured_content .icon { position: relative; width: 100px; height: 100px; margin: auto auto 10px; }
+.featured_section .featured_content .icon .icon1 { font-size: 55px; position: absolute; left: 50%; top: 40%; transform: translate(-50%, -40%); color: rgb(155, 155, 155); }
+.featured_section .featured_content .icon .icon2 { font-size: 30px; position: absolute; left: 35%; top: 50%; transform: rotate(132deg); color: rgb(155, 155, 155); }
+.featured_section .featured_content h3 { color: rgb(47, 47, 47); font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+.featured_section .featured_content p { color: rgb(47, 47, 47); font-size: 16px; }
+.projects { }
+.projects span { }
+.projects h1 { }
+.projects ul { padding: 0px; list-style: none; display: flex; justify-content: space-around; }
+.projects ul li { font-size: 18px; position: relative; padding: 0px 5px; }
+.projects ul li::before { content: ""; position: absolute; left: 0px; bottom: -5px; height: 2px; width: 0%; background: rgb(235, 58, 76); transition: all 0.4s ease-in-out 0s; }
+.projects ul li:hover::before { width: 50%; }
+.projects h3 { background: rgb(235, 58, 76); color: rgb(255, 255, 255); min-height: 83vh; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+.projects .projects_content1 { display: flex; }
+.projects .projects_content1 .pic1 { margin: 5px; }
+.projects .projects_content1 .pic2 { margin: 5px; }
+.projects .projects_content2 { display: flex; }
+.projects .projects_content2 .pic3 { margin: 0px 5px 5px; }
+.projects .projects_content2 .pic4 { margin: 0px 5px 5px; }
+.projects .pic5 { margin: 5px; }
+.aboutus { background: rgb(250, 250, 250); }
+.aboutus h3 { color: rgb(47, 47, 47); font-size: 22px; font-weight: 700; margin-bottom: 20px; }
+.about_bg { background-image: url("../images/about_us_bg.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.about_bg .about { height: 100px; width: 100px; line-height: 100px; border: 1px solid rgb(235, 58, 76); border-radius: 50%; padding: 20px; }
+.about_bg .about h4 { color: rgb(255, 255, 255); font-size: 20px; }
+.clients h4 { color: rgb(47, 47, 47); font-size: 20px; }
+form { background: rgb(250, 250, 250); }
+form h4 { color: rgb(47, 47, 47); font-size: 20px; position: relative; margin-bottom: 15px; }
+form h4::before { content: ""; position: absolute; left: 0px; bottom: -5px; height: 2px; width: 0%; background: rgb(235, 58, 76); transition: all 0.4s ease-in-out 0s; }
+form h4:hover::before { width: 20%; }
+form p { color: rgb(47, 47, 47); font-size: 16px; }
+form input { color: rgb(47, 47, 47) !important; font-size: 16px !important; border: 1px solid rgb(235, 58, 76) !important; border-radius: 30px !important; }
+form input[type="submit"] { padding: 6px 25px; background: none; color: rgb(47, 47, 47) !important; font-size: 16px !important; }
+.testimonial h2 { color: rgb(235, 58, 76); font-size: 75px; margin: 0px; }
+.testimonial p { }
+.testimonial .testimonial_pic { display: flex; align-items: center; }
+.testimonial .testimonial_pic h4 { color: rgb(47, 47, 47); font-size: 20px; margin-left: 20px; }
+.testimonial .testimonial_content { background: rgb(251, 251, 251); padding: 20px; }
+.plan { background: rgb(251, 251, 251); }
+.plan .plan1 {background: rgb(255, 255, 255);box-shadow: 2px 5px 5px 2px gray;}
+.plan .plan1 h4 {color: rgb(47, 47, 47);font-size: 20px;}
+.plan .plan1 span {display: block;height: 3px;width: 40px;background: rgb(235, 58, 76);margin: auto;margin-bottom: 20px;}
+.plan .plan1 h2 { color: rgb(47, 47, 47); font-size: 24px; }
+.plan .plan1 i {font-size: 50px;margin-bottom: 10px;}
+.plan .plan1 p {color: rgb(47, 47, 47);font-size: 16px;margin-bottom: 0;margin-bottom: 5px;}
+.plan .plan1:hover { transform: scale(1.05); transition: .4s all ease-in-out; }
+.post .post_content { box-shadow: 2px 5px 5px 2px gray; }
+.post .post_content h4 { padding: 15px 0 0 15px; }
+.post .post_content p {margin: 0;padding: 0 0 15px 15px;}
+.btn_read { margin: 0 0 15px 15px; }
+footer {  }
+footer .footer_content { background-image: url(../images/Contact_Us_bg.png); padding: 76px;}
+footer .footer_content h4 {color: #fff;font-size: 24px;}
+footer .footer_content h5 { margin-top: 10px; color: #fff; font-size: 20px; }
+footer .footer_content p { margin: 0; color: #fff; font-size: 16px; }
+footer .footer_content2 { background: #fafafa; padding: 30px;}
+footer .footer_content2 h4 { color: rgb(47, 47, 47); font-size: 20px; }
+footer .footer_content2 span { display: block;height: 3px;width: 40px;background: rgb(235, 58, 76);margin-bottom: 20px; }
+footer .footer_content2 p { color: rgb(47, 47, 47); font-size: 16px; }
+footer .footer_content2 form{}
+footer .footer_content2 form input {border: none !important;border-bottom: 1px solid #2f2f2f !important;border-radius: 0 !important;}
+footer .footer_content2 form textarea {border: none;border-bottom: 1px solid #2f2f2f;border-radius: 0;}
+footer .footer_content2 form input[type=submit] {border: none !important;border: 1px solid rgb(235, 58, 76) !important;padding: 0;padding: 6px 25px;border-radius: 20px !important;color: rgb(235, 58, 76) !important;margin-top: 10px;}
